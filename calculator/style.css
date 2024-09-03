@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calc-cont{
+    margin: auto;
+    width: 48vw;
+    height: 80vh;
+}
+
+.calc-cont .res-cont{
+    height: 30%;
+    background-color: #343434;
+    position: relative;
+}
+
+.res-cont h1{
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.calc-cont .calc-keys-cont{
+    width: 100%;
+    height: 70%;
+    background: #222121;
+}
+
+.calc-cont .calc-keys-cont tr{
+    width: 100%;
+}
+
+.calc-cont .calc-keys-cont td{
+    text-align: center;
+    width: 22%;
+    font-size: 1.2rem;
+    border: 8px solid #222123;
+    border-radius: 25px;
+    margin: 0px 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.key-num-clr{
+    background-color: #343434;
+}
+
+.key-cmd-clr{
+    background-image: linear-gradient(to right, #1a414c, #1a3946);
+}
